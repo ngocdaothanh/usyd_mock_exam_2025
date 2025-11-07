@@ -98,4 +98,18 @@ function q9() {
   }
 }
 
-q9()
+function q11() {
+  let name = 'Bob'
+
+  function set_name() {
+    // const name = 'Alice'
+    name = 'Alice'
+    console.log(name)
+  }
+
+  console.log(name)
+  set_name()
+  console.log(name)
+}
+
+q11()
